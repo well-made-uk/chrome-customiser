@@ -1,0 +1,4 @@
+#guide-button, #end > *, #badges, #metadata-line, #details #menu, #subscribe-button, #secondary, ytd-comments, #info #menu-container, ytd-rich-section-renderer, ytd-guide-signin-promo-renderer, #header, ytd-button-renderer.ytd-masthead, tp-yt-app-drawer {display:none!important}
+ytd-app[guide-persistent-and-visible] ytd-page-manager.ytd-app {margin-left:0!important}
+ytd-video-meta-block, ytd-badge-supported-renderer {display:inline-block!important}
+ytd-rich-grid-media[mini-mode] #video-title.ytd-rich-grid-media {-webkit-line-clamp:1!important}
