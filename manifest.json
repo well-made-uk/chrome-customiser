@@ -1,0 +1,21 @@
+{
+  "name": "Chrome Customiser",
+  "description": "Build an Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "content_scripts": [{
+    "matches": ["*://*.youtube.com/*"],
+    "css": ["youtube.css"],
+    "js": ["youtube.js"]
+  },{
+    "matches": ["*://*.channel4.com/*"],
+    "css": ["channel4.css"]
+  },{
+    "matches": ["*://*.upwork.com/*"],
+    "css": ["upwork.css"]
+    },{
+      "matches": ["*://*.hellobonsai.com/*"],
+      "css": ["bonsai.css"]
+      }]
+}
