@@ -14,8 +14,8 @@
   },{
     "matches": ["*://*.upwork.com/*"],
     "css": ["upwork.css"]
-    },{
-      "matches": ["*://*.hellobonsai.com/*"],
-      "css": ["bonsai.css"]
-      }]
+  },{
+    "matches": ["*://*.hellobonsai.com/*"],
+    "css": ["bonsai.css"]
+    }]
 }
