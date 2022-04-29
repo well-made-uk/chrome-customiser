@@ -1,13 +1,12 @@
 {
   "name": "Chrome Customiser",
-  "description": "Build an Extension!",
+  "description": "Design your own internet.",
   "version": "1.0",
   "manifest_version": 3,
 
   "content_scripts": [{
     "matches": ["*://*.youtube.com/*"],
-    "css": ["css/youtube.css"],
-    "js": ["js/youtube.js"]
+    "css": ["css/youtube.css"]
   },{
     "matches": ["*://*.channel4.com/*"],
     "css": ["css/channel4.css"]
