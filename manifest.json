@@ -14,6 +14,9 @@
     "matches": ["*://*.upwork.com/*"],
     "css": ["css/upwork.css"]
   },{
+    "matches": ["*://*.netflix.com/*"],
+    "css": ["css/netflix.css"]
+  },{
     "matches": ["*://*.hellobonsai.com/*"],
     "css": ["css/bonsai.css"]
     }]
