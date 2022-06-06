@@ -1,4 +1,13 @@
-#guide-button, #end > *, #badges, #metadata-line, #details #menu, #subscribe-button, #secondary, ytd-comments, #info #menu-container, ytd-rich-section-renderer, ytd-guide-signin-promo-renderer, #header, ytd-button-renderer.ytd-masthead, tp-yt-app-drawer {display:none!important}
+html {--ytd-rich-grid-item-margin: 2%!important}
+#guide-button, #search-icon, #search-button-narrow, #search-icon-legacy.ytd-searchbox, #end, #start, #badges, #metadata-line, #details #menu, #subscribe-button, #secondary, ytd-comments, #info #menu-container, ytd-rich-section-renderer, ytd-guide-signin-promo-renderer, #header, ytd-button-renderer.ytd-masthead, tp-yt-app-drawer {display:none!important}
 ytd-app[guide-persistent-and-visible] ytd-page-manager.ytd-app {margin-left:0!important}
+#container.ytd-masthead {justify-content:center!important}
+#container.ytd-searchbox {border-right:1px solid var(--ytd-searchbox-legacy-border-color)!important;border-radius:17px!important;font-size:12px!important;}
 ytd-video-meta-block, ytd-badge-supported-renderer {display:inline-block!important}
 ytd-rich-grid-media[mini-mode] #video-title.ytd-rich-grid-media {-webkit-line-clamp:1!important}
+ytd-thumbnail {transition:all 0.2s ease;box-shadow: rgb(0 0 0 / 5%) 0px 0px 0px 1px;border-radius:8px!important;overflow:hidden}
+ytd-thumbnail:hover {transform: scale(1.035);box-shadow: rgb(0 0 0 / 20%) 0px 6px 12px}
+ytd-rich-grid-renderer {margin:1.5% 5%}
+#center {max-width:400px!important}
+#search-form.ytd-searchbox {height:30px!important}
+#masthead {background:unset!important}
