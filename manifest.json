@@ -6,7 +6,8 @@
 
   "content_scripts": [{
     "matches": ["*://*.youtube.com/*"],
-    "css": ["css/youtube.css"]
+    "css": ["css/youtube.css"],
+    "js": ["js/youtube.js"]
   },{
     "matches": ["*://*.channel4.com/*"],
     "css": ["css/channel4.css"]
